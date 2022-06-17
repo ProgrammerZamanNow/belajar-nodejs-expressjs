@@ -1,7 +1,7 @@
 {
-  "name": "belajar-nodejs-unit-test",
+  "name": "belajar-nodejs-logging",
   "version": "1.0.0",
-  "description": "Belajar NodeJS Unit Test",
+  "description": "Belajar NodeJS Logging",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
@@ -29,6 +29,9 @@
   },
   "author": "Eko Kurniawan Khannedy",
   "license": "ISC",
+  "dependencies": {
+    "winston": "^3.7.2"
+  },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.12",
     "@babel/preset-env": "^7.17.12",
